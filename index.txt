@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/hoja-estilos.css" rel="stylesheet" type="text/css" />
+ 
+    <title>PERFIL</title>
+
+</head>
+<body>
+    <header class="inicio">
+        <h1 id="nombre">JHONATHAN</h1>
+        <nav class="menu">
+            <ul class="navul">
+                <li class="nav1"><a href="#seccion1" class="menu__link">Inicio |</a></li>
+                <li class="nav1"><a href="#seccion2" class="menu__link"> Acerca de Mi |</a></li>
+                <li class="nav1"><a href="#seccion3" class="menu__link"> Servicios |</a></li>
+                <li class="nav1"><a href="#seccion4" class="menu__link"> Portafolio |</a></li>
+                <li class="nav1"><a href="#seccion5" class="menu__link"> Contacto</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <section class="non-fot" id="seccion1">
+        <div>
+            <p>Bienvenido.</p>
+            <h1>YO SOY JHONATHAN</h1>
+            <p>Estudiante de Ingenieria Informatica.</p>
+        </div>
+        <img src="img/jr.png" alt="'NO SE PUDO CARGAR'" />
+    </section>
+
+    <section id="seccion2">
+        <h2 id="acerca">Acerca de Mi</h2>
+        <div class="perfil-info">
+            <div id="perfil">
+                <h3>Perfil</h3>
+                <p>
+                    Hola soy jhonathan rojas, soy estudiante de ingenieria informatica 6to semestre,
+                    informatico de corazon, con mucha disciplina y ganas de salir adelante, me gusta el codigo de programacion, crear apps de realidad aumentada,
+                    hacer deporte, ademas soy melomano y multifacetico
+                </p>
+            </div>
+            <div id="cursos">
+                <h3>Cursos</h3>
+                <ul>
+                    <li>Mantenimiento de equipós de computo</li>
+                    <li>ofimaticca</li>
+                    <li>unity-dev</li>
+                    <li>c++</li>
+                    <li>redes</li>
+                </ul>
+
+            </div>
+
+            <div id="experience">
+                <h3>Experiencia</h3>
+                <ol>
+                    <li>independiente</li>
+                    <li>oficina</li>
+                    <li>eventos</li>
+                </ol>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="seccion3">
+        <h2 class="h22">Servicios</h2>
+
+        <div class="servicios">
+            <div>
+                <img src="img/dev-apps.jpg" alt="img no disponible" />
+                <h2>Desarrollo de apps</h2>
+                <p>desarrollamos tu app a la medida y con la mejor experiencia de usuario</p>
+            </div>
+
+            <div>
+                <img src="img/dev-web.png" alt="img no disponible" />
+                <h2>Desarrollo web</h2>
+                <p>desarrollamos tu pagina a la medida y con la mejor experiencia de usuario</p>
+            </div>
+
+            <div>
+                <img src="img/seg-info.jpg" alt="img no disponible" />
+                <h2>Seguridad informatica</h2>
+                <p>Seguridad informatica en equipos de redes, y dispositivos</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="fondo" id="seccion4">
+        <h2 class="h22">Portafolio</h2>
+        <div class="portafolio">
+            <img src="img/1.jpg" alt="img no disponible" width="320" height="190" />
+            <img src="img/2.jpg" alt="img no disponible" width="320" height="190" />
+            <img src="img/3.jpg" alt="img no disponible" width="320" height="190" />
+            <img src="img/4.jpg" alt="img no disponible" width="320" height="190" />
+            <img src="img/5.jpg" alt="img no disponible" width="320" height="190" />
+            <img src="img/6.jpg" alt="img no disponible" width="320" height="190" />
+            <img src="img/7.jpg" alt="img no disponible" width="320" height="190" />
+            <img src="img/8.jpg" alt="img no disponible" width="320" height="190" />
+        </div>
+    </section>
+
+
+    <section id="seccion5">
+        <h2 class="h22">Contacto</h2>
+        <form class="formulario">
+            <p>
+                Nombre:
+                <input type="text" id="cajon" required /> <br />
+            </p> <br />
+            Motivo:
+            <select name="motivo" id="motivo" autofocus required>
+                <option selected>Desarrollo web</option>
+                <option>Desarrollo movil</option>
+                <option>Mantenimiento de equipo</option>
+                <option>Seguridad informatica</option>
+            </select> <br /> <br />
+            Correo:
+            <input type="email" id="cajon" required /> <br /> <br />
+            Mensaje:
+            <textarea id="textarea" required></textarea> <br /> <br />
+            <div id="btn"><input type="submit" id="enviar" name="ENVIAR" /> </div>
+        </form>
+
+    </section>
+
+    <footer>2020 - curso de diseño y desarrollo de sitios web accesibles<br />Autor:Jhonathan Alejandro Rojas Argüello</footer>
+
+
+    
+    <script type="text/javascript" src="js/scroll.js"></script>
+
+</body >
+</html >

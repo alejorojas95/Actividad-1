@@ -1,0 +1,166 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato' sans-serif;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 100px;
+    z-index: 1000;
+    background-color: #ECECFB;
+}
+
+.perfil-info {
+    padding: 0px 100px -100px;
+    background: #ECECFB;
+    width: 100%;
+    display: flex;
+    margin: -40px 0px 0px;
+    font-size: 20px;
+  
+}
+#acerca {
+    padding: 20px 100px 0px;
+    text-align: center;
+    align-content: center;
+    background: #ECECFB;
+    font-size:33px
+}
+    .perfil-info #perfil {
+       width:35%;
+        margin:100px;
+        text-align: center;
+    
+    }
+    .perfil-info #cursos {
+        text-align: center;
+        margin: 100px;
+    }
+    .perfil-info #experience {
+        text-align: center;
+        margin: 100px;
+    }
+
+.inicio {
+    background-color: #ECECFB:
+}
+.h22 {
+    margin-top:20px;
+    padding: 20px 100px 0px;
+    font-size: 33px;
+    text-shadow: 3px #ccc;
+    text-align: center;
+}
+
+.navul {
+  
+    font-size: 18px;
+    background-color: #ECECFB;
+}
+
+
+
+.nav1{
+    float:left;
+    list-style-type: none;
+    margin: 2px;
+   
+}
+
+.non-fot {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px 100px 10px;
+    background: #31313F;
+}
+.non-fot div{
+    color:aliceblue;
+}
+
+.servicios {
+    font-size: 20px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 40px 10px;
+}
+.portafolio {
+    margin-top:30px;
+    margin-left: 35px;
+}
+.fondo {
+    position:relative;
+    background: #ECECFB;
+    
+    
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.formulario {
+    margin-bottom: 100px;
+    margin-top: 60px;
+    margin-left: 300px;
+    font-size: 20px;
+    width: 775px;
+    align-content: center;
+    text-align: left;
+}
+
+#cajon {
+   
+    width: 700px;
+    height: 30px;
+    box-sizing: border-box;
+  
+
+}
+#btn {
+    
+    text-align: center;
+}
+
+#enviar {
+    background: #31313F;
+    width: 130px;
+    height: 40px;
+    
+    color: white;
+}
+    input:focus,
+    textarea:focus {
+
+        border-color: #000;
+    }
+
+textarea {
+    width: 780px;
+    height: 100px;
+    box-sizing: border-box;
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #999;
+}
+
+
+footer {
+    color:aliceblue;
+    text-align: center;
+    background: #31313F;
+}
